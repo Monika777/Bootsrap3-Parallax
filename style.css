@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'Poiret One', cursive;
+  background-color: #010101;
+}
+
+.parallax {
+  background-size: cover;
+  height: 100vh;
+  opacity: 1;
+  background-attachment: fixed;
+}
+.parallax.parallax-1 h1 {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 1%;
+    margin-left: 70%;
+    width: 40%;
+}
+.parallax.parallax-2 h1 {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 1%;
+    margin: none;
+    margin-top: 30%;
+    width: 50%;   
+}
+.parallax.parallax-3 h1 {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 1%;
+    margin-left: 70%;
+    width: 30%;
+}
+
+.parallax.parallax-1 {
+  background-image: url(https://images.unsplash.com/photo-1505996050735-78aa36a36f47?ixlib=rb-0.3.5&s=98248049186418dd6681f1053e3af724&auto=format&fit=crop&w=1440&q=80);
+  padding: 15%;
+}
+.parallax.parallax-2 {
+  background-image: url(https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d421bf13e03a04c6329be20362ea416&auto=format&fit=crop&w=750&q=80);
+  padding: 15%;
+}
+.parallax.parallax-3 {
+  background-image: url(https://images.unsplash.com/photo-1505995608023-90f49b0e461a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61f0dcbb7d69844faa16bf924496da6e&auto=format&fit=crop&w=750&q=80);
+  padding: 15%;
+}
+
+.parallax-text {
+  height: auto;
+  text-align: center;
+}
+
+.parallax-text.parallax-text-2 a.box {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin-top: 25px;
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #010101;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+.parallax-text-2 h1 {
+  color: white;
+}
+.parallax-text.parallax-text-2 a.box:hover {
+  border: 1px solid #2149FB;
+}
+.parallax-text.parallax-text-2 a.box .glyphicon {
+  position: absolute;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #2149FB;
+}
+.boxes {
+  margin: 10px 0;
+}
+.parallax-text.parallax-text-2 a.box:hover {
+  transform: scale(1.1);
+}
